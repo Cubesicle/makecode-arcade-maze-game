@@ -1,0 +1,29 @@
+{
+    "name": "Maze game final",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.8.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
